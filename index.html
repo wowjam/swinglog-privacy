@@ -9,7 +9,7 @@ h1{font-size:1.8rem;line-height:1.3;margin:0 0 8px}h2{font-size:1.2rem;line-heig
 </style></head><body><nav aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">English</button><button type="button" data-lang="ko" aria-pressed="false">한국어</button><button type="button" data-lang="ja" aria-pressed="false">日本語</button></nav>
 <section lang="en" data-lang="en">
 <h1>SwingLog Privacy Policy</h1>
-<p class="meta">Last updated: October 28, 2026</p>
+<p class="meta">Last updated: October 29, 2026</p>
 <h2>Overview</h2>
 <p>SwingLog is a golf app for iPhone and Apple Watch. It has no SwingLog user account and no central developer service that receives your activity records. Records are processed on your devices and can synchronize through Apple&#x27;s services. You can also choose to export or share data with other apps or services as described below.</p>
 <h2>Permissions and their purposes</h2>
@@ -22,8 +22,10 @@ h1{font-size:1.8rem;line-height:1.3;margin:0 0 8px}h2{font-size:1.2rem;line-heig
 <p>During a live practice report, Watch can send short 50 Hz swing samples to the paired iPhone even without Pro or with motion-log saving off. This temporary stream requires a visible foreground report and a reachable Watch. Samples are processed in memory; raw capture buffers are released after processing. Only chart display data and derived metrics remain until replaced or the report is closed or backgrounded. Ending practice can leave the last report visible until closed. Temporary reports do not enter motion-log history, iCloud, backups or exports. Independently enabled archival logging and explicit starred-swing retention remain separate.</p>
 <p>Course data includes course names and reference coordinates you enter or import, with optional par, green, tee and hazard geometry. These are course reference data, distinct from your live shot positions.</p>
 <h2>Location and microphone retention</h2>
+<p>When you add or edit a completed shot, club and order metadata and positions you explicitly pick on the map are saved in the round and its edit history. These user-entered positions are separate from Watch GPS capture consent, may sync to private iCloud and the paired Watch, and are included in backups. Delete Saved Locations removes the map positions and positional edit history too. Manual entries do not fabricate motion data or a swing timestamp.</p>
 <p>Recent user locations, shot origins/endpoints and free-measurement positions are held temporarily in memory for the active features. Shot location storage: with your choice on Watch, round journals save detected shot positions and measurement endpoints, GPS accuracy and timestamps for round maps, distance corrections and merging. This is not continuous travel-route recording. You can stop future saving in Watch Round Settings. Stored locations remain until you delete the locations or the round on iPhone. Edit history retains original positions; Delete Saved Locations removes those too. Round locations are included in private iCloud sync, paired-device transfers and manual backups. Deletions propagate after sync and do not erase exported copies. AI prompts do not contain shot coordinates. Round maps use Apple MapKit. Saved measurements retain calculated distances, accuracy and recording/saving times. Course coordinates deliberately selected on a map or imported are stored as course data. Location is not required for practice swing counting or tempo. No raw microphone audio is retained in app records or exports.</p>
 <h2>Storage, iCloud and Watch synchronization</h2>
+<p>Progress, scores and course snapshots for unfinished rounds are automatically backed up to the paired iPhone for recovery; these drafts may also sync to private iCloud. They include saved shot positions only with the existing location-storage consent. Discarding a round removes its round/score backups on both devices while independent swing and distance records remain.</p>
 <p>Watch records are stored locally for independent operation and transferred to the paired iPhone using Watch Connectivity. The iPhone&#x27;s stored swing, distance, club, course, round and related app records automatically mirror to your private iCloud CloudKit database when iCloud is available; there is no separate in-app sync-on switch. Some device preferences and transfer/version state stay local or synchronize only between phone and Watch. Synchronization depends on account availability, connection and Apple&#x27;s services and can be delayed. This is not a public database or a developer-hosted activity database.</p>
 <h2>AI prompts, exports and external services</h2>
 <p>SwingLog generates swing, multi-swing and round analysis prompts locally. It does not automatically send these prompts to an AI provider. Sharing, copying or exporting is initiated by you. A prompt can contain recording times, clubs, motion-derived metrics, star marks, measured distances and, for a round, course name and scores. Raw JSON exports can contain full saved motion samples, sound-derived numeric metadata and device/context identifiers. Backup files can contain the app&#x27;s stored activity, calibration, club, course, settings and round records. These files are not a promise that every device-local preference is backed up. They contain no raw microphone audio; opted-in round backups contain saved shot coordinates.</p>
@@ -40,7 +42,7 @@ h1{font-size:1.8rem;line-height:1.3;margin:0 0 8px}h2{font-size:1.2rem;line-heig
 </section>
 <section lang="ko" data-lang="ko">
 <h1>SwingLog 개인정보 처리방침</h1>
-<p class="meta">최종 업데이트: 2026년 10월 28일</p>
+<p class="meta">최종 업데이트: 2026년 10월 29일</p>
 <h2>개요</h2>
 <p>SwingLog는 iPhone과 Apple Watch용 골프 앱입니다. 별도의 SwingLog 사용자 계정이나 활동 기록을 받는 개발자의 중앙 서버가 없습니다. 기록은 기기에서 처리되며 Apple의 서비스를 통해 동기화될 수 있습니다. 아래에 설명한 내보내기·공유 기능으로 사용자가 다른 앱이나 서비스에 데이터를 전달할 수도 있습니다.</p>
 <h2>권한과 사용 목적</h2>
@@ -53,8 +55,10 @@ h1{font-size:1.8rem;line-height:1.3;margin:0 0 8px}h2{font-size:1.2rem;line-heig
 <p>실시간 연습 리포트는 Pro가 없거나 모션 로그 저장이 꺼져 있어도 워치의 짧은 50Hz 스윙 샘플을 연결된 아이폰에 전달할 수 있습니다. 아이폰 리포트가 화면에 열려 있고 워치와 즉시 통신할 수 있을 때만 임시 전송합니다. 샘플은 메모리에서 처리하고 원본 캡처 버퍼는 처리 후 해제합니다. 그래프 표시 데이터와 계산 수치만 다음 리포트로 대체되거나 화면을 닫거나 앱을 백그라운드로 보낼 때까지 유지됩니다. 연습 종료 후에는 닫을 때까지 마지막 리포트가 보일 수 있습니다. 임시 리포트는 모션 로그 목록·iCloud·백업·내보내기에 포함되지 않습니다. 별도로 켠 기록 저장과 직접 별표한 스윙의 보관은 독립적으로 동작합니다.</p>
 <p>코스 데이터에는 입력·가져온 코스 이름과 기준 좌표, 선택적인 Par·그린·티·해저드 영역이 포함됩니다. 이는 사용자의 실제 샷 위치와 구분되는 코스 기준 정보입니다.</p>
 <h2>위치와 마이크 정보의 보관</h2>
+<p>종료된 라운드에서 샷을 추가·수정하면 클럽·순서 정보와 지도에서 직접 지정한 위치가 라운드 및 수정 이력에 저장됩니다. 지도 입력은 워치 GPS 수집 동의와 별개이며, 개인 iCloud·워치 전송·백업에 포함됩니다. 저장된 위치 삭제는 지도 지정 위치와 위치 수정 이력도 제거합니다. 수동 샷은 모션 데이터나 실제 스윙 시각을 생성하지 않습니다.</p>
 <p>최근 사용자 위치, 샷의 시작·종료 위치와 자유 측정 위치는 기능을 위해 메모리에 임시 보관합니다. 워치에서 동의하면 라운드 지도·거리 수정·샷 합치기를 위해 감지된 샷 위치와 측정 종료점의 좌표·GPS 정확도·시각을 라운드에 저장합니다. 연속 이동 경로는 기록하지 않습니다. 워치 라운드 설정에서 이후 위치 저장을 중단할 수 있습니다. 기존 위치는 아이폰에서 위치만 삭제하거나 라운드를 삭제하기 전까지 유지됩니다. 수정 이력의 원본 위치도 저장된 위치 삭제 시 제거합니다. 위치는 개인 iCloud·연결된 기기 전송·수동 라운드 백업에 포함됩니다. 삭제는 동기화 후 반영되며 내보낸 사본은 삭제하지 않습니다. AI 프롬프트에는 샷 좌표를 포함하지 않습니다. 라운드 지도는 Apple MapKit을 사용합니다. 거리 기록에는 계산한 거리, 정확도, 기록·저장 시각을 보관합니다. 지도에서 직접 선택하거나 가져온 코스 좌표는 코스 데이터로 저장합니다. 연습 스윙 카운트와 템포에는 위치가 필요하지 않습니다. 원본 마이크 오디오는 앱 기록이나 내보내기에 보관하지 않습니다.</p>
 <h2>저장·iCloud·워치 동기화</h2>
+<p>미완료 라운드의 진행 상황·스코어·코스 정보는 복구를 위해 연결된 아이폰에 자동 백업되며, 개인 iCloud에도 동기화될 수 있습니다. 저장된 샷 위치는 기존 위치 저장 동의가 있을 때만 포함됩니다. 라운드를 폐기하면 양쪽의 라운드·스코어 백업을 삭제하고, 별도의 스윙·거리 기록은 유지합니다.</p>
 <p>워치는 독립적으로 작동하도록 기록을 로컬에 저장하고 Watch Connectivity로 연결된 iPhone에 전달합니다. iPhone의 스윙·거리·클럽·코스·라운드 등 저장 기록은 iCloud가 사용 가능하면 사용자의 개인 CloudKit 데이터베이스에 자동 미러링됩니다. 별도의 앱 내 동기화 켜기 스위치는 없습니다. 일부 기기 설정과 전송·버전 상태는 로컬에 남거나 폰·워치 사이에서만 동기화됩니다. 동기화는 계정·연결·Apple 서비스 상태에 따라 지연될 수 있습니다. 공개 데이터베이스나 개발자의 활동 기록 서버를 사용하지 않습니다.</p>
 <h2>AI 프롬프트·내보내기·외부 서비스</h2>
 <p>SwingLog는 단일·여러 스윙과 라운드 분석용 프롬프트를 기기에서 만듭니다. AI 제공자에게 자동 전송하지 않으며 공유·복사·내보내기는 사용자가 시작합니다. 프롬프트에는 기록 시각, 클럽, 모션 분석 수치, 별표, 측정 거리와 라운드의 코스 이름·스코어 등이 포함될 수 있습니다. 원시 JSON에는 저장된 전체 모션 샘플, 소리에서 얻은 수치 특징, 기기·캡처 식별 정보가 포함될 수 있습니다. 백업에는 활동·보정·클럽·코스·설정·라운드 기록이 포함될 수 있지만 모든 기기별 설정을 백업하는 것은 아닙니다. 원본 마이크 오디오는 포함하지 않습니다. 동의 후 저장한 라운드 샷 좌표는 백업에 포함됩니다.</p>
@@ -71,7 +75,7 @@ h1{font-size:1.8rem;line-height:1.3;margin:0 0 8px}h2{font-size:1.2rem;line-heig
 </section>
 <section lang="ja" data-lang="ja">
 <h1>SwingLog プライバシーポリシー</h1>
-<p class="meta">最終更新: 2026年10月28日</p>
+<p class="meta">最終更新: 2026年10月29日</p>
 <h2>概要</h2>
 <p>SwingLogはiPhoneとApple Watch向けのゴルフアプリです。SwingLogのユーザーアカウントや活動記録を受信する開発者の中央サーバーはありません。記録はデバイスで処理され、Appleのサービスを通じて同期される場合があります。以下の書き出し・共有機能で、ユーザーが他のアプリやサービスにデータを渡すこともできます。</p>
 <h2>権限と利用目的</h2>
@@ -84,8 +88,10 @@ h1{font-size:1.8rem;line-height:1.3;margin:0 0 8px}h2{font-size:1.2rem;line-heig
 <p>ライブ練習レポートでは、Pro未加入またはモーションログ保存がオフでも、Watchの短い50HzスイングサンプルをペアリングiPhoneへ送る場合があります。レポートが前面に表示され、Watchと即時通信できる間だけ一時送信します。サンプルはメモリで処理し、元の取得バッファーは処理後に解放します。グラフ表示データと算出指標のみを、次のレポートへの置換・画面を閉じる・バックグラウンド移行まで保持します。練習終了後も閉じるまで最後の表示が残る場合があります。一時レポートはログ一覧・iCloud・バックアップ・書き出しに含みません。別途有効にしたログ保存や明示的な星付きスイングの保持は独立します。</p>
 <p>コースデータには入力・読み込んだ名前と基準座標、任意のPar・グリーン・ティー・ハザード領域を含みます。これらは実際のショット位置とは別のコース基準情報です。</p>
 <h2>位置・マイク情報の保持</h2>
+<p>終了済みラウンドのショットを追加・編集すると、クラブ・順序と地図で明示指定した位置をラウンドと編集履歴に保存します。地図入力はWatch GPS記録の同意と別で、個人のiCloud・Watch転送・バックアップに含まれます。保存位置の削除で地図位置と位置編集履歴も消去します。手動ショットはモーションデータや実際の打球時刻を作成しません。</p>
 <p>最近のユーザー位置、ショット始点・終点、自由測定位置は機能のため一時的にメモリに保持します。Watchで同意すると、地図・距離修正・ショット統合のため、検出位置と測定終了点の座標・GPS精度・時刻をラウンドに保存します。連続移動経路は記録しません。Watchのラウンド設定で以降の保存を停止できます。保存位置はiPhoneで位置のみ、またはラウンドを削除するまで保持します。編集履歴の元の位置も保存位置の削除で消去します。位置は個人のiCloud・端末間転送・手動バックアップに含まれます。削除は同期後に反映し、書き出したコピーは消去しません。AIプロンプトにショット座標は含めません。ラウンド地図はApple MapKitを使います。 距離記録には計算距離、精度、記録・保存時刻を保持します。地図上で選択・読み込んだコース座標はコースデータとして保存します。練習のスイング数やテンポに位置情報は不要です。生のマイク音声はアプリ記録や書き出しに保持しません。</p>
 <h2>保存・iCloud・Watch同期</h2>
+<p>未完了ラウンドの進行・スコア・コース情報を復元用にペアリングiPhoneへ自動バックアップし、個人のiCloudにも同期する場合があります。保存済みショット位置は既存の位置保存同意がある場合のみ含みます。破棄すると両端末のラウンド・スコアのバックアップを削除し、独立したスイング・距離記録は保持します。</p>
 <p>Watchは単独動作のためローカルに保存し、Watch ConnectivityでペアリングiPhoneに渡します。iPhoneのスイング・距離・クラブ・コース・ラウンドなどの保存記録は、iCloudが利用可能なら個人のプライベートCloudKitデータベースに自動ミラーリングされます。アプリ内の独立した同期オンスイッチはありません。一部の端末設定や転送・版管理状態はローカルに残るか、iPhoneとWatch間のみで同期します。同期はアカウント、接続、Appleサービスによって遅れる場合があります。公開データベースや開発者の活動記録サーバーは使いません。</p>
 <h2>AIプロンプト・書き出し・外部サービス</h2>
 <p>単一・複数スイングやラウンド分析用プロンプトはデバイスで作成し、AI提供者へ自動送信しません。共有・コピー・書き出しはユーザーが開始します。記録時刻、クラブ、モーション指標、星印、測定距離、ラウンドのコース名・スコアなどを含み得ます。生JSONには保存済みの全モーションサンプル、音から得た数値特徴、端末・取得識別情報を含み得ます。バックアップには活動・較正・クラブ・コース・設定・ラウンド記録を含み得ますが、全端末設定をバックアップするものではありません。生音声は含みません。同意後に保存したラウンドのショット座標はバックアップに含まれます。</p>
